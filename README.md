@@ -144,16 +144,6 @@ book.html
       font-size: 18px;
       color: white;
     }
-    .book-cover .mypic
-    {
-      position: relative;
-      top:550px;
-      left: 370px;
-      width : 8px;
-      height: 8px;
-      background-size:fit;
-    }
-
 
     .book-cover .image {
       width: 100%;
@@ -163,6 +153,14 @@ book.html
       top:  0;
       left: 10;
     }
+    .authorpic{
+           position: relative;
+           top: 465px;
+           left: 300px;
+           width: 100px;
+           height: 100px;
+           background-size: cover;
+       }
   </style>
 </head>
 
@@ -181,6 +179,9 @@ book.html
     <div class="line1"><hr style="color:blanchedalmond"></div>
     <div class="line3"><hr style="color:red"></div>
     <div class="author">OLIVIA WILSON </div>
+    <div class="authorpic">
+      <img src="auhtor1.jpeg" width="125" height="150" alt="">
+  </div>
     <div class="number"> </div>
 
     
@@ -192,7 +193,7 @@ book.html
   
 ```
 # OUTPUT:
-![alt text](<Screenshot 2025-04-21 195401.png>)
+![alt text](<bcpro/Screenshot 2025-04-22 111734.png>)
 
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
